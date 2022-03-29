@@ -2,6 +2,7 @@ package com.darksoldier1404.dls;
 
 import com.darksoldier1404.dls.commands.DLSCommand;
 import com.darksoldier1404.dls.events.DLSEvent;
+import com.darksoldier1404.dppc.utils.ColorUtils;
 import com.darksoldier1404.dppc.utils.ConfigUtils;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -29,7 +30,7 @@ public class LegendaryStorage extends JavaPlugin {
     public void onEnable() {
         plugin = this;
         config = ConfigUtils.loadDefaultPluginConfig(plugin);
-        prefix = config.getString("Settings.prefix");
+        prefix = ColorUtils.applyColor(config.getString("Settings.prefix"));
         defaultSlot = config.getInt("Settings.DefaultSlot");
         maxPages = config.getInt("Settings.MaxPages");
         plugin.getServer().getPluginManager().registerEvents(new DLSEvent(), plugin);
