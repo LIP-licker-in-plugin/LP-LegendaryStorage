@@ -162,7 +162,7 @@ public class DLSFunction {
 
     public static void reloadConfig() {
         plugin.config = ConfigUtils.reloadPluginConfig(plugin, plugin.config);
-        plugin.prefix = plugin.config.getString("Settings.prefix");
+        plugin.prefix = ColorUtils.applyColor(plugin.config.getString("Settings.prefix"));
         plugin.defaultSlot = plugin.config.getInt("Settings.DefaultSlot");
         plugin.maxPages = plugin.config.getInt("Settings.MaxPages");
     }
