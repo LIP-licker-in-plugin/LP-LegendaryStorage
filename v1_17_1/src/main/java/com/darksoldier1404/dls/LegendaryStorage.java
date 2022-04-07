@@ -2,8 +2,10 @@ package com.darksoldier1404.dls;
 
 import com.darksoldier1404.dls.commands.DLSCommand;
 import com.darksoldier1404.dls.events.DLSEvent;
+import com.darksoldier1404.dls.functions.DLSFunction;
 import com.darksoldier1404.dppc.utils.ColorUtils;
 import com.darksoldier1404.dppc.utils.ConfigUtils;
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -39,5 +41,7 @@ public class LegendaryStorage extends JavaPlugin {
 
     @Override
     public void onDisable() {
+        Bukkit.getOnlinePlayers().forEach(DLSFunction::saveAndLeave);
+        ConfigUtils.savePluginConfig(plugin, config);
     }
 }
