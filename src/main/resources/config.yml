@@ -3,6 +3,9 @@ Settings:
 
   title: "&1<player> 님의 가상 창고 입니다."
 
+  BuyPrice: 10000
+  PricePerOwned: 2500
+
   DefaultSlot: 27
   MaxPages: 10
 
