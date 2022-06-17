@@ -6,5 +6,5 @@ authors: [ DEAD_POOLIO_ ]
 depend:
   - DPP-Core
 commands:
-  李쎄퀬:
+  창고:
     aliases: [dls]
