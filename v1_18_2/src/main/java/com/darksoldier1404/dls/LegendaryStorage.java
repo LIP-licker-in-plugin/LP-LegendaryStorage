@@ -7,7 +7,6 @@ import com.darksoldier1404.dppc.utils.ColorUtils;
 import com.darksoldier1404.dppc.utils.ConfigUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.YamlConfiguration;
-
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.*;
@@ -36,7 +35,6 @@ public class LegendaryStorage extends JavaPlugin {
         plugin.getServer().getPluginManager().registerEvents(new DLSEvent(), plugin);
         Objects.requireNonNull(getCommand("창고")).setExecutor(new DLSCommand());
     }
-
 
     @Override
     public void onDisable() {
