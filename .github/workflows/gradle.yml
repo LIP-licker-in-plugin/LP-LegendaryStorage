@@ -1,4 +1,4 @@
-name: Gradle Build by.Bruce0203
+name: DP-LegendaryStorage
 on:
   push:
 jobs:
