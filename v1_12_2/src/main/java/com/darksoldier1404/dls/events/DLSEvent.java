@@ -4,6 +4,7 @@ import com.darksoldier1404.dls.LegendaryStorage;
 import com.darksoldier1404.dls.functions.DLSFunction;
 import com.darksoldier1404.dppc.api.inventory.DInventory;
 import com.darksoldier1404.dppc.utils.NBT;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -37,8 +38,8 @@ public class DLSEvent implements Listener {
 
     @EventHandler
     public void onInventoryClose(InventoryCloseEvent e) {
-        if (e.getInventory() instanceof DInventory) {
-            DInventory di = (DInventory) e.getInventory();
+        if (DLSFunction.currentInv.containsKey(e.getPlayer().getUniqueId())) {
+            DInventory di = DLSFunction.currentInv.get(e.getPlayer().getUniqueId());
             if (di.isValidHandler(plugin)) {
                 DLSFunction.saveCurrentContents(di);
                 DLSFunction.saveInventory(di);
@@ -48,8 +49,8 @@ public class DLSEvent implements Listener {
 
     @EventHandler
     public void onInventoryClick(InventoryClickEvent e) {
-        if (e.getInventory() instanceof DInventory) {
-            DInventory di = (DInventory) e.getInventory();
+        if (DLSFunction.currentInv.containsKey(e.getWhoClicked().getUniqueId())) {
+            DInventory di = DLSFunction.currentInv.get(e.getWhoClicked().getUniqueId());
             if (di.isValidHandler(plugin)) {
                 if (e.getCurrentItem() != null) {
                     if(NBT.hasTagKey(e.getCurrentItem(), "dls-block") || NBT.hasTagKey(e.getCurrentItem(), "current")) {
