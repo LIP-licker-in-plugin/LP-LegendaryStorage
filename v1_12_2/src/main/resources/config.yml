@@ -1,0 +1,14 @@
+Settings:
+  prefix: "&f[ &6창고 &f] "
+
+  title: "&1<player> 님의 가상 창고 입니다."
+
+  DefaultSlot: 27
+  MaxPages: 10
+
+  Coupon:
+    Material: PAPER
+    displayName: "&a창고 &b<slot>칸 &a확장권"
+    lore:
+      - "&f"
+      - "&6우클릭시 사용"

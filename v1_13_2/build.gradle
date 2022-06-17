@@ -10,7 +10,7 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 configurations {
-    jar.archiveName = 'DP-LegendaryStorage-_' + name + '-' + version + '.jar'
+    jar.archiveName = rootProject.name + '-_' + name + '-' + version + '.jar'
 }
 jar {
     destinationDirectory.set(file("$rootDir/jars"))
