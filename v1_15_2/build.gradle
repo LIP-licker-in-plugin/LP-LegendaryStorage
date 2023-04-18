@@ -2,8 +2,9 @@ plugins {
     id 'java'
 }
 
-group 'com.darksoldier1404'
-version = '1.0.0.4'
+group 'com.licker2689'
+version = '1.0.0.5'
+def MC_VERSION = '1.15.2'
 
 compileJava.options.encoding = 'UTF-8'
 tasks.withType(JavaCompile) {
@@ -23,17 +24,32 @@ build {
 
 repositories {
     mavenCentral()
-    maven {
-        url "http://feather-s.kr:8083/repository/maven-public/"
-        allowInsecureProtocol = true
-    }
-    maven {
-        url "http://feather-s.kr:8083/repository/dpp-releases/"
-        allowInsecureProtocol = true
+    maven { url = 'https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-'+ MC_VERSION+'/'
+        credentials {
+            username providers.gradleProperty('github.username').get()
+            password providers.gradleProperty('github.token').get()
+        }
+        authentication {
+            digest(BasicAuthentication)
+        } 
     }
 
+    maven { url = 'https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-api-'+ MC_VERSION+'/'
+        credentials {
+            username providers.gradleProperty('github.username').get()
+            password providers.gradleProperty('github.token').get()
+        }
+        authentication {
+            digest(BasicAuthentication)
+        } 
+    }
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
     maven {
-        url "http://licker.ddns.net:8081/repository/dpp/"
+        url = 'http://licker2689.kro.kr:8081/repository/maven-releases/'
+        allowInsecureProtocol = true
+    }
+    maven {
+        url = 'http://licker2689.kro.kr:8081/repository/lip-release/'
         allowInsecureProtocol = true
     }
 }
@@ -42,7 +58,7 @@ dependencies {
     implementation 'org.jetbrains:annotations:20.1.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
-    compileOnly 'org.bukkit.craftbukkit:craftbukkit:R0.1:1.15.2'
-    compileOnly 'org.spigotmc:spigot-api:R0.1:1.15.2'
-    compileOnly 'com.darksoldier1404.dppc:DPP-Core:1.15.2-SNAPSHOT'
+    compileOnly 'org.spigotmc:spigot:1.15.2-R0.1-SNAPSHOT'
+    compileOnly 'org.spigotmc:spigot-api:1.15.2-R0.1-SNAPSHOT'
+    compileOnly 'com.licker2689.lpc:LP-Core:R0.1:1.15.2'
 }

@@ -1,10 +1,10 @@
 name: DP-LegendaryStorage
-version: 1.0.0.4
-main: com.darksoldier1404.dls.LegendaryStorage
+version: 1.0.0.5
+main: com.licker2689.lls.LegendaryStorage
 api-version: 1.19
-authors: [ DEAD_POOLIO_ ]
+authors: [ LICKER2689 ]
 depend:
-  - DPP-Core
+  - LP-Core
 commands:
   창고:
-    aliases: [dls]
+    aliases: [lls]
