@@ -71,5 +71,125 @@
       <option name="name" value="maven3" />
       <option name="url" value="http://licker.ddns.net:8081/repository/dpp/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven5" />
+      <option name="name" value="maven5" />
+      <option name="url" value="http://licker2689.kro.kr:8081/repository/lip-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-api-1.19.4/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven3" />
+      <option name="name" value="maven3" />
+      <option name="url" value="https://repo.papermc.io/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-1.19.4/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven4" />
+      <option name="name" value="maven4" />
+      <option name="url" value="http://licker2689.kro.kr:8081/repository/maven-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-api-1.14.4/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-1.14.4/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-api-1.17.1/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-1.17.1/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-api-1.15.2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-1.15.2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-1.18.2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-api-1.18.2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-api-1.16.5/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-1.16.5/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-1.19.2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-api-1.19.2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-1.12.2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-api-1.12.2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-api-1.13.2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-1.13.2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven5" />
+      <option name="name" value="maven5" />
+      <option name="url" value="http://licker2689.kro.kr:8081/repository/lip-release/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-api-1.19.3/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-1.19.3/" />
+    </remote-repository>
   </component>
 </project>
