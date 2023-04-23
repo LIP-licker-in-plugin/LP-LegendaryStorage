@@ -31,7 +31,7 @@ repositories {
         }
         authentication {
             digest(BasicAuthentication)
-        } 
+        }
     }
 
     maven { url = 'https://raw.githubusercontent.com/LIP-licker-in-plugin/library-mirror/spigot-api-'+ MC_VERSION+'/'
@@ -41,7 +41,7 @@ repositories {
         }
         authentication {
             digest(BasicAuthentication)
-        } 
+        }
     }
     maven { url = 'https://repo.papermc.io/repository/maven-public/' }
     maven {

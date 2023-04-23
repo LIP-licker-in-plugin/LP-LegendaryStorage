@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DP-LegendaryStorage.main.iml" filepath="$PROJECT_DIR$/.idea/modules/DP-LegendaryStorage.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/v1_12_2/DP-LegendaryStorage.v1_12_2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/v1_12_2/DP-LegendaryStorage.v1_12_2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/v1_13_2/DP-LegendaryStorage.v1_13_2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/v1_13_2/DP-LegendaryStorage.v1_13_2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/v1_14_4/DP-LegendaryStorage.v1_14_4.main.iml" filepath="$PROJECT_DIR$/.idea/modules/v1_14_4/DP-LegendaryStorage.v1_14_4.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/v1_15_2/DP-LegendaryStorage.v1_15_2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/v1_15_2/DP-LegendaryStorage.v1_15_2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/v1_16_5/DP-LegendaryStorage.v1_16_5.main.iml" filepath="$PROJECT_DIR$/.idea/modules/v1_16_5/DP-LegendaryStorage.v1_16_5.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/v1_17_1/DP-LegendaryStorage.v1_17_1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/v1_17_1/DP-LegendaryStorage.v1_17_1.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/v1_18_2/DP-LegendaryStorage.v1_18_2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/v1_18_2/DP-LegendaryStorage.v1_18_2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/v1_19_2/DP-LegendaryStorage.v1_19_2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/v1_19_2/DP-LegendaryStorage.v1_19_2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/v1_19_3/DP-LegendaryStorage.v1_19_3.main.iml" filepath="$PROJECT_DIR$/.idea/modules/v1_19_3/DP-LegendaryStorage.v1_19_3.main.iml" />
+    </modules>
+  </component>
+</project>
