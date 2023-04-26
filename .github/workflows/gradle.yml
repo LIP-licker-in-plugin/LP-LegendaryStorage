@@ -1,4 +1,4 @@
-name: DP-LegendaryStorage
+name: LP-LegendaryStorage
 on:
   push:
 jobs:

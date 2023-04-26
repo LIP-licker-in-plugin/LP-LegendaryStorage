@@ -1,12 +1,12 @@
-name: DP-LegendaryStorage
-version: 1.0.0.5
+name: LP-LegendaryStorage
+version: 1.0.0.6
 main: com.licker2689.lls.LegendaryStorage
 api-version: 1.18
 authors: [ LICKER2689 ]
 depend:
   - LP-Core
 commands:
-  창고:
+  李쎄퀬:
     aliases: [lls]
 
 
