@@ -62,3 +62,4 @@ dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.17.1-R0.1-SNAPSHOT'
     compileOnly 'com.licker2689.lpc:LP-Core:R0.1:1.17.1'
 }
+
