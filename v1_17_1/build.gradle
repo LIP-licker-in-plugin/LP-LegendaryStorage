@@ -63,4 +63,3 @@ dependencies {
     compileOnly 'com.licker2689.lpc:LP-Core:R0.1:1.17.1'
 }
 
-//
